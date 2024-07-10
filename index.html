@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skylight HOTEL</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white flex justify-between items-center py-4 px-8 shadow-md">
+    <div class="logo w-36 flex">
+      <img src="../images/Skylight_Hotel_(Ethiopia).png" alt="Skylight_Hotel_">
+    </div>
+    <nav>
+      <ul class="flex space-x-6">
+        <li><a href="#home" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">HOME</a></li>
+        <li><a href="#accommodation" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">ACCOMMODATION</a></li>
+        <li><a href="#features" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">FEATURES</a></li>
+        <li><a href="#book" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">BOOK</a></li>
+        <li><a href="#in-terminal-hotel" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">IN-TERMINAL HOTEL</a></li>
+        <li><a href="#vacancies" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">VACANCIES</a></li>
+        <li><a href="#contact" class="text-blue-800 font-bold transition transform hover:scale-110 hover:text-blue-600">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="search-box">
+      <form action="#" class="relative">
+        <input type="text" placeholder="Search" class="p-2 border border-gray-300 rounded">
+        <button type="submit" class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white px-3 py-1 rounded">Search</button>
+      </form>
+    </div>
+  </header>
+  <main class="p-10">
+    <section id="home" class="bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('../images/imag2.jpg');">
+      <div class="text-center text-white bg-black bg-opacity-50 p-6 rounded-lg fade-in">
+        <h1 class="text-4xl font-bold">Welcome to Skylight Hotel</h1>
+        <p class="mt-4 text-xl">Experience a world of comfort and convenience at our hotel.</p>
+      </div>
+    </section>
+    <section id="accommodation" class="availability-checker bg-white p-6 rounded-lg shadow-md mx-auto w-96 text-center mt-10 fade-in">
+      <h2 class="text-2xl mb-4">Check Availability</h2>
+      <form action="#" class="space-y-4">
+        <div class="date-range flex justify-between items-center">
+          <label for="arriving" class="w-24">Arriving:</label>
+          <input type="date" id="arriving" required class="p-2 border border-gray-300 rounded w-36">
+        </div>
+        <div class="date-range flex justify-between items-center">
+          <label for="departing" class="w-24">Departing:</label>
+          <input type="date" id="departing" required class="p-2 border border-gray-300 rounded w-36">
+        </div>
+        <div class="guests flex justify-between items-center">
+          <label for="adults" class="w-24">Adults:</label>
+          <input type="number" id="adults" min="1" required class="p-2 border border-gray-300 rounded w-16">
+          <label for="children" class="w-24">Children:</label>
+          <input type="number" id="children" min="0" required class="p-2 border border-gray-300 rounded w-16">
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded mt-4">Check Availability</button>
+      </form>
+    </section>
+    <section class="container mx-auto p-6 flex flex-col lg:flex-row items-start lg:items-center">
+      <div class="w-full lg:w-1/2 p-4">
+          <img src="../images/1234.jpg" alt="Addis Ababa" class="rounded-lg shadow-md w-full">
+          <div class="absolute top-4 left-4 text-white">
+              <p class="text-lg">Sunday</p>
+              <p class="text-sm">16 June, 2024 Addis Ababa, Ethiopia</p>
+          </div>
+      </div>
+      <div class="w-full lg:w-1/2 p-4">
+          <h1 class="text-3xl font-bold mb-4">Welcome to Ethiopian Skylight Hotel.</h1>
+          <p class="mb-4">
+              A striking contemporary property with elegant design and outstanding facilities in a prime location just 5 minutes' walk away from the Addis Ababa Bole International Airport, Ethiopian Skylight Hotel promises guests an unforgettable experience during their visit to Addis Ababa. The hotel is a convenient and aspirational accommodation option for business and leisure travellers, and people visiting this vibrant city.
+          </p>
+          <p class="mb-4">
+              Be spoilt for choice with 1024 comfortably modern rooms and suites with different room types with additional 97 tranquil rooms in our Skylight In-Terminal Hotel inside Addis Ababa Bole International Airport's. Check out the extra modern amenities of our suites. All rooms and suites offer a host of contemporary design features and essential comforts, including full Wi-Fi connectivity, that meet the needs of long- and short-stay guests at Ethiopian Skylight Hotel.
+          </p>
+          <p class="mb-4">
+              If you plan a meeting, event, or special occasion, including weddings, our dedicated facility, including the largest hotel ballroom in Addis Ababa and eight fully equipped meeting rooms with the latest audio-visual equipment and modern decor, promise corporate and social gatherings with style and finesse.
+          </p>
+      </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="container mx-auto p-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <i class="fas fa-map-marker-alt text-yellow-500 text-2xl mb-2"></i>
+              <p>Walking distance from Airport</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <i class="fas fa-bed text-yellow-500 text-2xl mb-2"></i>
+              <p>Newly Furnished & Spacious Rooms</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <i class="fas fa-users text-yellow-500 text-2xl mb-2"></i>
+              <p>Largest Conference and Meeting Rooms</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <i class="fas fa-shuttle-van text-yellow-500 text-2xl mb-2"></i>
+              <p>24hrs Free airport shuttle service</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <i class="fas fa-wifi text-yellow-500 text-2xl mb-2"></i>
+              <p>High Speed Free Wi-Fi</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center">
+              <i class="fas fa-lock text-yellow-500 text-2xl mb-2"></i>
+              <p>Highly secure and Safe</p>
+          </div>
+      </div>
+  </section>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <section id="features" class="mt-10">
+      <h2 class="text-center text-3xl font-bold mb-6">Our Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <img src="../images/imag2.jpg" alt="Feature 1" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-2xl font-bold mb-2">Luxury Rooms</h3>
+          <p>Enjoy our luxurious rooms with modern amenities and beautiful views.</p>
+          <form class="mt-4">
+            <label for="feedback-feature1" class="block text-gray-700">Feedback:</label>
+            <textarea id="feedback-feature1" rows="3" class="w-full p-2 border border-gray-300 rounded"></textarea>
+            <button type="submit" class="mt-2 bg-blue-600 text-white px-4 py-2 rounded">Submit Feedback</button>
+          </form>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <img src="../images/imag2.jpg" alt="Feature 2" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-2xl font-bold mb-2">Gourmet Dining</h3>
+          <p>Experience exquisite dining options at our in-house restaurants.</p>
+          <form class="mt-4">
+            <label for="feedback-feature2" class="block text-gray-700">Feedback:</label>
+            <textarea id="feedback-feature2" rows="3" class="w-full p-2 border border-gray-300 rounded"></textarea>
+            <button type="submit" class="mt-2 bg-blue-600 text-white px-4 py-2 rounded">Submit Feedback</button>
+          </form>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md fade-in">
+          <img src="../images/imag2.jpg" alt="Feature 3" class="w-full h-48 object-cover rounded-lg mb-4">
+          <h3 class="text-2xl font-bold mb-2">World-Class Amenities</h3>
+          <p>Relax and unwind with our world-class amenities including a spa, gym, and pool.</p>
+          <form class="mt-4">
+            <label for="feedback-feature3" class="block text-gray-700">Feedback:</label>
+            <textarea id="feedback-feature3" rows="3" class="w-full p-2 border border-gray-300 rounded"></textarea>
+            <button type="submit" class="mt-2 bg-blue-600 text-white px-4 py-2 rounded">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <body class="bg-gray-100">
+      <section id="book" class="bg-white p-6 rounded-lg shadow-md mx-auto w-full md:w-96 text-center mt-10 fade-in">
+          <h1>Your Booking section content here</h1>
+      </section>
+      <section id="in-terminal-hotel" class="bg-white p-6 rounded-lg shadow-md mx-auto w-full md:w-96 text-center mt-10 fade-in">
+          <h1>Your In-Terminal Hotel section content here</h1>
+      </section>
+      <section id="vacancies" class="bg-white p-6 rounded-lg shadow-md mx-auto w-full md:w-96 text-center mt-10 fade-in">
+          <p>Your Vacancies section content here</p>
+      </section>
+      <section id="contact" class="bg-white p-6 rounded-lg shadow-md mx-auto w-full md:w-96 text-center mt-10 fade-in">
+          <p>Your Contact section content here</p>
+      </section>
+      <section class="main-content p-8">
+        <h2 class="text-2xl font-bold mb-6 transition-transform transform hover:scale-105">Our Rooms</h2>
+        <div class="room mb-8 transition-transform transform hover:scale-105">
+            <img src="../images/h4.jpg" alt="Room 1" class="w-full h-64 object-cover mb-4 rounded transition-transform transform hover:scale-110">
+            <h3 class="text-xl font-semibold mb-2">Deluxe Room</h3>
+            <p class="text-lg text-gray-700 mb-4">$200 per night</p>
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Book Now</button>
+        </div>
+        <div class="room mb-8 transition-transform transform hover:scale-105">
+            <img src="../images/h5.jpg" alt="Room 2" class="w-full h-64 object-cover rounded transition-transform transform hover:scale-110">
+            <h3 class="text-xl font-semibold mb-2">Executive Suite</h3>
+            <p class="text-lg text-gray-700 mb-4">$300 per night</p> 
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Book Now</button>
+        </div>
+    </section>
+    
+    <section class="main-content p-8">
+        <h2 class="text-2xl font-bold mb-6 transition-transform transform hover:scale-105">Our Rooms</h2>
+        <div class="room mb-8 transition-transform transform hover:scale-105">
+            <img src="../images/h6.jpg" alt="Room 1" class="w-full h-64 object-cover mb-4 rounded transition-transform transform hover:scale-110">
+            <h3 class="text-xl font-semibold mb-2">Deluxe Room</h3>
+            <p class="text-lg text-gray-700 mb-4">$200 per night</p>
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Book Now</button>
+        </div>
+        <div class="room mb-8 transition-transform transform hover:scale-105">
+            <img src="../images/h7.jpg" alt="Room 2" class="w-full h-64 object-cover rounded transition-transform transform hover:scale-110">
+            <h3 class="text-xl font-semibold mb-2">Executive Suite</h3>
+            <p class="text-lg text-gray-700 mb-4">$300 per night</p> 
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Book Now</button>
+        </div>
+    </section>
+    
+    <section class="main-content p-8">
+        <h2 class="text-2xl font-bold mb-6 transition-transform transform hover:scale-105">Our Rooms</h2>
+        <div class="room mb-8 transition-transform transform hover:scale-105">
+            <img src="../images/21.jpg" alt="Room 1" class="w-full h-64 object-cover mb-4 rounded transition-transform transform hover:scale-110">
+            <h3 class="text-xl font-semibold mb-2">Deluxe Room</h3>
+            <p class="text-lg text-gray-700 mb-4">$200 per night</p>
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Book Now</button>
+        </div>
+        <div class="room mb-8 transition-transform transform hover:scale-105">
+            <img src="../images/21.jpg" alt="Room 2" class="w-full h-64 object-cover rounded transition-transform transform hover:scale-110">
+            <h3 class="text-xl font-semibold mb-2">Executive Suite</h3>
+            <p class="text-lg text-gray-700 mb-4">$300 per night</p> 
+            <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors duration-300">Book Now</button>
+        </div>
+    </section>
+    
+
+  
+  </main>
+
+  <footer class="bg-gray-200 p-6">
+    <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+            <!-- Social Media Section -->
+            <div class="mb-4 md:mb-0">
+                <h3 class="text-lg font-semibold">SOCIAL MEDIA</h3>
+                <p>Connect with us on social media</p>
+                <div class="flex space-x-4 mt-2">
+                    <a href="#" class="text-black"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-black"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-black"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="text-black"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-black"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-black"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <!-- Subscribe Section -->
+            <div class="flex flex-col">
+                <h3 class="text-lg font-semibold mb-2">SUBSCRIBE</h3>
+                <form action="#" class="flex">
+                    <input type="email" placeholder="Email address" class="p-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-gray-300">
+                    <button type="submit" class="bg-yellow-700 text-white px-4 rounded-r-lg hover:bg-yellow-800">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-4 bg-gray-800 text-white mt-10">  
+      <p>&copy; 2024 Skylight Hotel. All Rights Reserved to the Asal Man.</p>
+      <p>Group Hotel Assingment</p>
+    </div>
+</footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.fade-in').forEach(el => {
+        el.classList.remove('opacity-0');
+      });
+    });
+  </script>
+</body>
+</html>
